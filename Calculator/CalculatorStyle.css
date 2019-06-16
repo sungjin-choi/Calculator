@@ -2,7 +2,44 @@
 {
 }
 #calculatorFrame {
-    background-color: antiquewhite;
+    background-image: linear-gradient(180deg, #00ff00, #0000ff);
     width: 500px;
     height: 600px;
+}
+
+.screen {
+    float: left;
+    width: 450px;
+    height: 100px;
+    margin: 10px 20px 10px 20px;
+    padding: 2px 5px 2px 5px;
+
+}
+
+.leftFrame {
+    width: 100px;
+    height: 600px;
+    float: left;
+}
+
+.rightFrame {
+    width: 100px;
+    height: 600px;
+    float: left;
+}
+
+.digitFrame {
+    width: 300px;
+    height: 600px;
+    float: left;
+}
+
+button {
+    background-color: #FFF0F0;
+    font-size: 20px;
+    color: brown;
+    width: 90px;
+    height: 75px;
+    float: left;
+    margin: 5px 5px 5px 5px;
 }
