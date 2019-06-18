@@ -11,11 +11,19 @@
         <form name="myCalculator">
             <input class="screen" type="text" name="display">
 
-            <div class="leftFrame">
-                <button>Clear</button>
+            <div class="upperFrame">
+                <button>A/C</button>
+                <button>(</button>
+                <button>)</button>
                 <button>^</button>
                 <button>Sqrt()</button>
-                <button>Delete</button>
+            </div>
+
+            <div class="leftFrame">
+                <button>pi</button>
+                <button>ln</button>
+                <button>log</button>
+                <button>Save</button>
             </div>
 
 
@@ -43,6 +51,22 @@
             </div>
 
         </form>
+    </div>
+
+    <div id="showWorkFrame">
+        <input class="work" type="text" name="workDisplay">
+    </div>
+
+    <div id="instructions">
+        <p class="instructionText title">Welcome to the My Calculator App!</p>
+        <p class="instructionText">Here are some tips to get started:</p>
+        <div class="tips">
+            <ul class="instructionText">
+                <li>Feel free to click buttons or type into the calculator to perform calculations</li>
+                <li>"Save" a number if needed. This will show up in the middle column</li>
+                <li>Thanks for using My Calculator!</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
